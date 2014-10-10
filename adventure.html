@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Layla Li</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="custom.css" rel="stylesheet">
+    <script src="js/respond.js"></script>
+</head>
+
+<body>
+
+    <!-- navigation bar -->
+<div class="container">
+    <!-- row 1: navigation -->
+    <div class="row">
+        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="glyphicon glyphicon-arrow-down"></span>
+                  MENU
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown"><a href="#" data-toggle="dropdown">About Me<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="active"><a href="adventure.html">Adventure</a></li>
+                        </ul>                    
+                    </li>
+                    <li><a href="work.html">Work</a></li> 
+                </ul> 
+            </div>
+         </nav> 
+    </div>
+<div class="container">
+    <!-- row 2 -->
+    <header class="row">
+        <div class="col-lg-6 col-sm-5">
+            <a href="index.html"><img src="image/logo.jpg" height="100px" alt="Layla Li."></a>
+        </div>
+    </header>
+</div>
+<div class="row">
+            <ul>
+                <li class="thumbnail col-sm-3 col-xs-6">
+                    <a href="#rome" data-toggle="modal"><img src="image/rsz_rome.jpg" alt="Rome"></a>
+                    <div class="caption">
+                        <h3>Rome</h3>
+                        <p>New Year's Eve</p>
+                        <p><a href="#rome" data-toggle="modal" class="btn btn-primary" role="button">Read more</a></p>
+                    </div>
+                </li>
+                <li class="thumbnail col-sm-3 col-xs-6">
+                    <a href="#venice" data-toggle="modal"><img src="image/rsz_venice.jpg" alt="Venice">
+                    <div class="caption"></a>
+                        <h3>Venice</h3>
+                        <p>A City Didn't Live Up to Its Name</p>
+                        <p><a href="#venice" data-toggle="modal" class="btn btn-primary" role="button">Read more</a></p>
+                    </div>
+                </li>
+                <li class="thumbnail col-sm-3 col-xs-6">
+                    <a href="#istanbul" data-toggle="modal"><img src="image/rsz_istanbul.jpg" alt="amalfi"></a>
+                    <div class="caption">
+                        <h3>Istanbul</h3>
+                        <p>A Day in the Life of..</p>
+                         <p><a href="#istanbul" data-toggle="modal" class="btn btn-primary" role="button">Read more</a></p>
+                    </div>      
+                </li>
+                <li class="thumbnail col-sm-3 col-xs-6">
+                    <a href="#shangri-La" data-toggle="modal"><img src="image/rsz_shangri-la.jpg" alt="shangri-la"></a>
+                    <div class="caption">
+                        <h3>Shangri-La</h3>
+                        <p>Before the Dreamland Burnt Down</p>
+                         <p><a href="#shangri-la" data-toggle="modal" class="btn btn-primary" role="button">Read more</a></p>
+                    </div>
+                </li>
+            </ul>
+		</div>
+		<footer class="row siteinfo">
+			<p>This website is design by Layla Li using Bootstrap following instruction of Professor Jen Kramer for learning purpose.</p>
+         <p>Content is this website is otherwise true and original.</p>
+		</footer>
+	</div><!-- end container -->
+    <!-- modal windows -->
+        <div id="rome" class="modal fade" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close glyphicon glyphicon-remove" data-dismiss="modal"></button>
+                        <h3 class="modal-title">Rome</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p><img src="image/rome.jpg" alt="rome" class="img-responsive pull-left">A New Year's Eve rock concert at Colosseum was not one to forget. A city dwelling on the memory of men can still radiates young energy, making me question what I think I know.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="venice" class="modal fade" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close glyphicon glyphicon-remove" data-dismiss="modal"></button>
+                        <h3 class="modal-title">Venice</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p><img src="image/venice.jpg" alt="venice" class="img-responsive pull-right">I expected to be blown away by the beauty of Venice I read so much in literature, but it was not the case. A city so unique was just another victim of consumerism. Ponte dei Sospiri was wrapped around in ads, gondola became an over-priced yet inefficient way of transportation, and the overall lack originality in the islands of Murano and Burano make me realize fame smears instead of sublimating.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+       <div id="istanbul" class="modal fade" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close glyphicon glyphicon-remove" data-dismiss="modal"></button>
+                        <h3 class="modal-title">Istanbul</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p><img src="image/istanbul.jpg" alt="istanbul" class="img-responsive pull-left">Getting to Istanbul was an adventure by itself. After a 4-hour bus ride from Boston to New York and a 10-hour flight from JFK to Istanbul, I had only 19 hours to absorb what the great Constantinople has to offer before catching another 13-hour flight to Osaka. Absorbing the great beauty of Constantinople in just one day made me realize the fleeting nature of beauty.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="shangri-la" class="modal fade" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close glyphicon glyphicon-remove" data-dismiss="modal"></button>
+                        <h3 class="modal-title">Shangri-La</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p><img src="image/shangri-la.jpg" alt="shangri-la" class="img-responsive pull-right">My way of exploring the mystery land was to sketch every piece of artifact, garment, and paintings I found interesting in Shangri-La's exotic cafe, guest house, mountains, and villages. Then I added notes on my sketches after I did some research. The sketch book is now my scared guide to Shangri-La.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- javascript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
