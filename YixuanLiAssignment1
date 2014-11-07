@@ -1,0 +1,7 @@
+URL for the home page: a1.yixuanli.me
+What three styles/components did you use from the list above?
+	Glyphicons,Jumbotron, Thumbnails, Buttons, Image Styling
+What two JavaScript widgets did you use?
+	Modal, Image Carousel
+What are the 5 (minimum) styles you customized with LESS CSS? What LESS partial file are they located in?
+	In Variable.less I changed color, jumbotron style, button style, nav bar style, and dropdown menu style
